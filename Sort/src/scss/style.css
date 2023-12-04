@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carts {
+  padding: 50px 0;
+}
+.carts .button {
+  display: flex;
+  justify-content: end;
+  padding: 20px 0;
+}
+.carts .button #btn, .carts .button #btn2 {
+  background-color: pink;
+  padding: 20px 30px;
+  border: 0px;
+  border-radius: 33px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.carts #item .cart {
+  text-align: center;
+}
+.carts #item .cart:hover img {
+  transform: scale(1.03);
+}
+.carts #item .cart:hover .content .brand {
+  color: black;
+}
+.carts #item .cart .img {
+  overflow: hidden;
+}
+.carts #item .cart .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.carts #item .cart .content {
+  padding: 15px;
+}
+.carts #item .cart .content .brand {
+  font-size: 22px;
+  color: gray;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
